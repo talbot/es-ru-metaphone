@@ -55,7 +55,7 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>${maven.plugin.assembly.version}</version>
                 <configuration>
-                    <finalName>${project.artifactId}-${project.version}</finalName>
+                    <finalName>${project.artifactId}-${project.version}_lucene-${apache.lucene.version}</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
                     <outputDirectory>${project.build.directory}/releases/</outputDirectory>
                     <descriptors>
